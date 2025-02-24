@@ -10,6 +10,28 @@
     margin: 0 auto;
 }
 
+.mar-top{
+    margin-top: 20px;
+}
+
+.py-bot{
+    padding-bottom: 15px;
+}
+
+
+.py-20{
+    padding: 20px;
+}
+
+
+.pad-top{
+    padding-top: 150px;
+}
+
+.mar-logo{
+    margin-right: 4px;
+}
+
 /* spaziatura */
 
 nav{
@@ -57,7 +79,7 @@ li{
     text-align: right;
 }
 
-#login-button{
+.login-button{
     border-radius: 5px;
     border: 0px;
     padding: 5px;
@@ -147,7 +169,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
 }
 
 .footer-dim{
@@ -163,7 +184,7 @@ footer{
     background-color: #d3d3d3;
 }
 
-.bg-orange{
+.bg-header{
     background-color: #255EE9;
 }
 
@@ -184,7 +205,6 @@ footer{
 }
 
 
-
 .footer-dim{
     display: flex;
     justify-content: space-between;
@@ -203,9 +223,6 @@ h1{
 }
 
 
-.py-20{
-    padding: 20px;
-}
 
 .space-around{
     justify-content: space-around;
@@ -219,10 +236,6 @@ h1{
     flex-direction: column;
 }
 
-.text-align{
-    text-align: center;
-}
-
 .stelle{
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
@@ -230,6 +243,34 @@ h1{
 }
 
 #ita{
-
+    width: 30px;
+    height: 20px;
 }
 
+.inline-block{
+    display: inline-block;
+}
+
+.color-blue{
+    color:#677ec8;
+}
+
+.color-white{
+    color: white;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.just-center{
+    justify-content: center;
+}
+
+hr{
+    border: #255EE9;
+}
