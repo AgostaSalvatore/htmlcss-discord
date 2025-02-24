@@ -34,6 +34,11 @@
 
 /* spaziatura */
 
+
+body{
+    font-family: "Inter", serif;
+}
+
 nav{
     padding: 8px;
     background-color: #255EE9;
@@ -80,6 +85,7 @@ li{
 }
 
 .login-button{
+    width: 55px;
     border-radius: 5px;
     border: 0px;
     padding: 5px;
@@ -128,18 +134,13 @@ li{
     background-color: green;
 }
 
-.rectangle{
-    height: 200px;
-    width: 20%;
-    border: 2px dashed black;
-    background-color: pink;
+.big-col{
+    max-width: 40%;
+    margin-left: 50px;
 }
 
-.rectangle2{
-    height: 200px;
+.small-col{
     width: 20%;
-    border: 2px dashed white;
-    background-color: #3dc6f4;
 }
 
 .center{
@@ -222,8 +223,6 @@ h1{
     margin-bottom: 30px;
 }
 
-
-
 .space-around{
     justify-content: space-around;
 }
@@ -273,4 +272,12 @@ h1{
 
 hr{
     border: #255EE9;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.vertical-align{
+    vertical-align: middle;
 }
