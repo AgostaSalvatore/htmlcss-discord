@@ -134,6 +134,30 @@ li{
         justify-content: center;
 }
 
+.scarica-per-mac{
+    background: #7289DA;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+footer{
+    padding-top: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.footer-dim{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+    width: 60%;
+}
+
 /* utility */
 .bg-gray {
     background-color: #d3d3d3;
@@ -159,14 +183,7 @@ li{
     border: 1.5px dashed black;
 }
 
-footer{
-    padding-top: 10px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid white;
-}
+
 
 .footer-dim{
     display: flex;
@@ -209,4 +226,10 @@ h1{
 .stelle{
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
+
+#ita{
+
+}
+
