@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* spaziatura */
+
+nav{
+    padding: 8px;
+    background-color: #255EE9;
+}
+
+
+nav .container >* {
+    margin: 0 auto;
+    height: 40px;
+    padding: 5px;
+    }
+
+nav .container{
+    display: flex;
+}
+
+.logo{
+    width: 12%;
+}
+
+.links{
+    flex-grow: 1;
+}
+
+.links ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 10px;
+}
+
+li{
+    color: #fff;
+}
+
+.login{
+    width: 10%;
+    text-align: right;
+}
+
+#login-button{
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px;
+}
+
+.container-small {
+    background-color: purple;
+    width: 50%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bigger-square{
+    width: 60%;
+    height: 150px;
+    background-color: #3dc6f4;
+    
+}
+
+.smaller-square{
+    width: 40%;
+    height: 150px;
+    background-color: pink;
+}
+
+.biggest-square{
+    width: 60%px;
+    height: 80%;
+    background-color: green;
+}
+
+.rectangle{
+    height: 200px;
+    width: 20%;
+    border: 2px dashed black;
+    background-color: pink;
+}
+
+.rectangle2{
+    height: 200px;
+    width: 20%;
+    border: 2px dashed white;
+    background-color: #3dc6f4;
+}
+
+/* utility */
+.bg-gray {
+    background-color: #d3d3d3;
+}
+
+.bg-orange{
+    background-color: #255EE9;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-black{
+    background-color: #23272a;
+}
+
+.bg-aquamarine{
+    background-color: aquamarine;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-center{
+        display: flex;
+        max-width: 900px;
+        margin: 0 auto;
+}
+
+.border{
+    border: 1.5px dashed black;
+}
+
+footer{
+    padding-top: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.footer-dim{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+    width: 60%;
+}
+
+.button{
+    background-color: rosybrown;
+    padding: 3px;
+}
+
+.py-20{
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sfondo{
+    background-image:url(./img/jumbo.png);
+    background-size: contain;
+}
+
+.intestazioneprincipale{
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    display: inline-block;
+}
