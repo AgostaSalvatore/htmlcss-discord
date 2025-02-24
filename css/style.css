@@ -43,6 +43,11 @@ nav .container{
     gap: 10px;
 }
 
+a{
+    text-decoration: none;
+}
+
+
 li{
     color: #fff;
 }
@@ -58,12 +63,19 @@ li{
     padding: 5px;
 }
 
-.container-small {
-    background-color: purple;
-    width: 50%;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
+.sfondo{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15%;
+}
+
+.intestazioneprincipale{
+    padding: 5px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    
 }
 
 .bigger-square{
@@ -99,6 +111,18 @@ li{
     background-color: #3dc6f4;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-center{
+        display: flex;
+        max-width: 900px;
+        margin: 0 auto;
+}
+
 /* utility */
 .bg-gray {
     background-color: #d3d3d3;
@@ -118,18 +142,6 @@ li{
 
 .bg-aquamarine{
     background-color: aquamarine;
-}
-
-.center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.small-center{
-        display: flex;
-        max-width: 900px;
-        margin: 0 auto;
 }
 
 .border{
@@ -158,32 +170,11 @@ footer{
     padding: 3px;
 }
 
-.py-20{
-    padding: 20px;
-}
-
-.sfondo{
-    background-image: url(/img/jumbo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.intestazioneprincipale{
-    padding: 5px;
-    height: 200px;
-    width: 500px;
-    text-align: center;
-    line-height: 20px;
-    color: #fff;
-    display: inline-block;
-    
-}
-
-
-a{
-    text-decoration: none;
-}
-
 h1{
     margin-bottom: 30px;
+}
+
+
+.py-20{
+    padding: 20px;
 }
