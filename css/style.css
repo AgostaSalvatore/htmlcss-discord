@@ -63,14 +63,15 @@ li{
     padding: 5px;
 }
 
-.sfondo{
+.sfondo-intestazione{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 15%;
+    padding: 140px 0px;
 }
 
 .intestazioneprincipale{
+    max-width: 600px;
     padding: 5px;
     text-align: center;
     line-height: 20px;
@@ -78,12 +79,19 @@ li{
     
 }
 
-.bigger-square{
-    width: 60%;
-    height: 150px;
-    background-color: #3dc6f4;
-    
+.item{
+    width: 300px;
+    height: 300px;
 }
+
+.instazione-item1{
+    display: flex;
+    padding: 5px;
+    text-align: left;
+    line-height: 20px;
+    justify-content: flex-end;
+}
+
 
 .smaller-square{
     width: 40%;
@@ -115,12 +123,14 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 30px auto;
 }
 
 .small-center{
         display: flex;
         max-width: 900px;
         margin: 0 auto;
+        justify-content: center;
 }
 
 /* utility */
@@ -177,4 +187,8 @@ h1{
 
 .py-20{
     padding: 20px;
+}
+
+.space-around{
+    justify-content: space-around;
 }
