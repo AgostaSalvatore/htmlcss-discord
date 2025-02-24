@@ -77,6 +77,7 @@ nav .container{
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 
@@ -90,8 +91,8 @@ li{
 }
 
 .login-button{
-    width: 55px;
-    border-radius: 5px;
+    width: 60px;
+    border-radius: 10px;
     border: 0px;
     padding: 5px;
 }
@@ -167,6 +168,7 @@ li{
     color: white;
     border-radius: 20px;
     padding: 10px;
+    border: 0px;
 }
 
 footer{
@@ -198,15 +200,6 @@ footer{
     background-color: #23272a;
 }
 
-
-.footer-dim{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 90%;
-    width: 60%;
-}
-
 .button{
     background-color: rosybrown;
     padding: 3px;
@@ -224,8 +217,8 @@ h1{
     width: 100%;
 }
 
-.col{
-    flex-direction: column;
+.col-50{
+    width: 50%;
 }
 
 .stelle{
@@ -261,6 +254,11 @@ h1{
 
 h1{
     font-size: 40px;
+}
+
+p{
+    line-height: 20px;
+    font-size: 14px;
 }
 
 
