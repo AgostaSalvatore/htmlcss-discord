@@ -268,3 +268,7 @@ p{
 p{
     line-height: 30px;
 }
+
+.margin-logo{
+    margin: 0px 10px;
+}
